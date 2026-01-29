@@ -47,3 +47,21 @@ The [antigravity.json](/.config/opencode/antigravity.json) file represents my pe
 
 *   **Reference:** You can use it as a direct reference or modify it.
 *   **Customization:** To customize it properly, please refer to the official schema [here](https://raw.githubusercontent.com/NoeFabris/opencode-antigravity-auth/main/assets/antigravity.schema.json).
+
+
+## 🔐 Antigravity Auth Add Account
+
+To add a new account to your Antigravity configuration, follow these steps:
+
+1.  **Start Login Process**: Run the command `opencode auth login`. Select **Google** as the provider.
+    ![Select Provider](/Screenshoot/antigravity-auth-add-account-1.png)
+
+2.  **Select Login Method**: Choose **OAuth with Google (Antigravity)**.
+    ![Select Login Method](/Screenshoot/antigravity-auth-add-account-2.png)
+
+3.  **Add New Account**: When prompted to select an account, choose **Add new account**.
+    ![Add New Account](/Screenshoot/antigravity-auth-add-account-3.png)
+
+4.  **Complete Authentication**: Follow the instructions to open the link in your browser, authenticate, and paste the redirect URL back into the terminal. Once done, your account will be added.
+    ![Success](/Screenshoot/antigravity-auth-add-account-4.png)
+

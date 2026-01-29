@@ -47,3 +47,19 @@ Berkas [antigravity.json](/.config/opencode/antigravity.json) mewakili pengatura
 
 *   **Referensi:** Anda dapat menggunakannya sebagai referensi langsung atau memodifikasinya.
 *   **Kustomisasi:** Untuk menyesuaikannya dengan benar, silakan merujuk ke skema resmi [di sini](https://raw.githubusercontent.com/NoeFabris/opencode-antigravity-auth/main/assets/antigravity.schema.json).
+
+## 🔐 Antigravity Auth Tambah Akun
+
+Untuk menambahkan akun baru ke konfigurasi Antigravity Anda, ikuti langkah-langkah berikut:
+
+1.  **Mulai Proses Login**: Jalankan perintah `opencode auth login`. Pilih **Google** sebagai penyedia.
+    ![Pilih Penyedia](/Screenshoot/antigravity-auth-add-account-1.png)
+
+2.  **Pilih Metode Login**: Pilih **OAuth with Google (Antigravity)**.
+    ![Pilih Metode Login](/Screenshoot/antigravity-auth-add-account-2.png)
+
+3.  **Tambah Akun Baru**: Saat diminta untuk memilih akun, pilih **Add new account**.
+    ![Tambah Akun Baru](/Screenshoot/antigravity-auth-add-account-3.png)
+
+4.  **Selesaikan Autentikasi**: Ikuti petunjuk untuk membuka tautan di browser Anda, lakukan autentikasi, dan tempel URL pengalihan kembali ke terminal. Setelah selesai, akun Anda akan ditambahkan.
+    ![Sukses](/Screenshoot/antigravity-auth-add-account-4.png)
